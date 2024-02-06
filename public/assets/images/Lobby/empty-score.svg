@@ -1,0 +1,24 @@
+<svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_43_32307)">
+<mask id="path-1-inside-1_43_32307" fill="white">
+<path fillRule="evenodd" clipRule="evenodd" d="M7 0L9.5 2.54545V13.4545L7 16L4.5 13.4545V2.54545L7 0Z"/>
+</mask>
+<path d="M9.5 2.54545H10.5V2.13651L10.2134 1.84475L9.5 2.54545ZM7 0L7.71345 -0.700708L7 -1.42713L6.28655 -0.700708L7 0ZM9.5 13.4545L10.2134 14.1553L10.5 13.8635V13.4545H9.5ZM7 16L6.28655 16.7007L7 17.4271L7.71345 16.7007L7 16ZM4.5 13.4545H3.5V13.8635L3.78655 14.1553L4.5 13.4545ZM4.5 2.54545L3.78655 1.84475L3.5 2.13651V2.54545H4.5ZM10.2134 1.84475L7.71345 -0.700708L6.28655 0.700708L8.78655 3.24616L10.2134 1.84475ZM10.5 13.4545V2.54545H8.5V13.4545H10.5ZM8.78655 12.7538L6.28655 15.2993L7.71345 16.7007L10.2134 14.1553L8.78655 12.7538ZM7.71345 15.2993L5.21345 12.7538L3.78655 14.1553L6.28655 16.7007L7.71345 15.2993ZM3.5 2.54545V13.4545H5.5V2.54545H3.5ZM6.28655 -0.700708L3.78655 1.84475L5.21345 3.24616L7.71345 0.700708L6.28655 -0.700708Z" fill="url(#paint0_angular_43_32307)" mask="url(#path-1-inside-1_43_32307)"/>
+</g>
+<defs>
+<filter id="filter0_d_43_32307" x="0.5" y="0" width="13" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_43_32307"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_43_32307" result="shape"/>
+</filter>
+<radialGradient id="paint0_angular_43_32307" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(7 8) rotate(90) scale(8 2.5)">
+<stop stopColor="#A3A4A8"/>
+<stop offset="1" stopColor="#A3A4A8" stopOpacity="0"/>
+</radialGradient>
+</defs>
+</svg>

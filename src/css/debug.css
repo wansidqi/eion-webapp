@@ -1,0 +1,10 @@
+@tailwind utilities;
+
+@layer utilities {
+  .test {
+    @apply border-2 border-yellow-500;
+  }
+  .box {
+    @apply bg-green-500;
+  }
+}

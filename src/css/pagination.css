@@ -1,0 +1,22 @@
+.paginationBtns {
+  /* width: 80%;
+    height: 40px;  */
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  /* margin: 1.5rem;  */
+  margin-top: 9.5rem;
+  /* background-image: url('../../public/assets/images/Leaderboard/nextIcon.png') ;  */
+}
+
+.paginationBtns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  /* border: 1px solid #2b2eff; */
+}
+
+/* /* .paginationBtns a:hover {
+    color:white;
+ background-color: blue;
+} */

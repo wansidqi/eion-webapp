@@ -1,0 +1,37 @@
+@tailwind utilities;
+
+.current-exp {
+  background: radial-gradient(100% 100% at 50% 100%, #0574dc 0%, #0038ff 100%);
+  box-shadow: 0px 0px 4px #5097d9;
+  border-radius: 3px;
+  @apply h-full  transition-all duration-500;
+}
+
+.upcoming-exp {
+  background: linear-gradient(90.07deg, #4b9be4 0.06%, #168fff 99.94%);
+  box-shadow: 0px 0px 4px #5097d9;
+  /* border-radius: 3px; */
+  @apply h-full transition-all duration-500;
+}
+
+.bar {
+  background: linear-gradient(90deg, rgba(87, 87, 87, 0.5) 0%, rgba(1, 133, 255, 0.025) 100%);
+  border-radius: 3px;
+}
+
+.loader {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.crop-refinement {
+  clip-path: inset(10% 10% 40% 10%);
+}

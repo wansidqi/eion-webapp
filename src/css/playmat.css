@@ -1,0 +1,91 @@
+@tailwind utilities;
+
+@layer utilities {
+  .root {
+    @apply text-[11.09px];
+  }
+
+  .gradient-border {
+    position: relative;
+    @apply text-secondary rounded-[2px] bg-[#242424];
+  }
+
+  .gradient-border-active {
+    position: relative;
+    @apply text-secondary rounded-[2px] bg-[#050f7f];
+  }
+
+  .gradient-border::after {
+    position: absolute;
+    top: -1.5px;
+    bottom: -1.5px;
+    left: -1.5px;
+    right: -1.5px;
+    background: linear-gradient(130deg, #a1a1a1, transparent);
+    content: '';
+    z-index: -1;
+    border-radius: 0.2rem;
+  }
+
+  .gradient-border-active::after {
+    position: absolute;
+    top: -1.5px;
+    bottom: -1.5px;
+    left: -1.5px;
+    right: -1.5px;
+    background: linear-gradient(130deg, #0e8bca, transparent);
+    content: '';
+    z-index: -1;
+    border-radius: 0.2rem;
+  }
+
+  .deck-playmat-selection {
+    @apply h-[55px] w-[55px];
+  }
+
+  .deck-playmat-size {
+    @apply h-[90px] w-[63px];
+  }
+
+  .locker-bg {
+    /* background-image: url('/assets/images/Playmat/locker-bg.png'); */
+    background-repeat: no-repeat;
+    @apply h-screen bg-cover;
+  }
+
+  .text-secondary {
+    font-size: 9.24px;
+  }
+
+  .deck-active {
+    background: linear-gradient(180deg, #000000 0%, rgba(94, 94, 94, 0) 100%);
+    @apply text-secondary;
+  }
+
+  .draft-timer {
+    background: radial-gradient(100% 100% at 50.59% 0%, #06111a 0%, #122d42 100%);
+    border: 1px solid #343c43;
+    border-radius: 2px;
+  }
+
+  .mini-playmat {
+    background: radial-gradient(93.93% 93.93% at 46.67% 100%, rgba(0, 77, 148, 1) 0%, rgba(9, 24, 37, 1) 100%);
+  }
+  
+
+  .placeholder-card {
+    background-image: url('/assets/images/Playmat/placeholder-card.png');
+    background-size: cover;
+    @apply h-[90px] w-[63px];
+  }
+
+  .crop {
+    clip-path: inset(15% 20% 45% 20%);
+  }
+
+  .selected-shadow {
+    box-shadow: 1px 0px 88px -10px rgba(35,125,209,1);
+    -webkit-box-shadow: 1px 0px 88px -10px rgba(35,125,209,1);
+    -moz-box-shadow: 1px 0px 88px -10px rgba(35,125,209,1);
+  }
+}

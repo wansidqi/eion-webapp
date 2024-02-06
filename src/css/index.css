@@ -1,0 +1,32 @@
+@tailwind utilities;
+
+@layer utilities {
+  body {
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    @apply bg-[#111827];
+  }
+
+  @layer utilities {
+    .flexcenter {
+      @apply flex items-center justify-center;
+    }
+
+    .flexcenter-col {
+      @apply flex flex-col items-center justify-center;
+    }
+
+    .scrollbar-hidden::-webkit-scrollbar {
+      display: none;
+    }
+
+    .skeleton-screen {
+      @apply h-4 animate-pulse rounded-md bg-slate-800 text-transparent;
+    }
+  }
+}

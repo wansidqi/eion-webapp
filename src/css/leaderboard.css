@@ -1,0 +1,17 @@
+.leaderboard-bg {
+  background: radial-gradient(100% 5687.67% at 0% 58.33%, #181818 0%, #1e1f23 100%);
+  border-radius: 5px;
+  @apply rounded-md border border-[#168FFF];
+}
+
+.my-rank {
+  background: radial-gradient(100% 5687.67% at 0% 58.33%, #496872 0%, #1e1f23 100%);
+  border: 1px solid #5fffff;
+  border-radius: 5px;
+}
+
+.lb-rewards {
+  background: linear-gradient(111.77deg, #0537ea 1.78%, #2176c4 64.27%);
+  box-shadow: 0px 4px 4px #000000;
+  border-radius: 5px;
+}

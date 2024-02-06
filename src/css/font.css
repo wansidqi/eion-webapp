@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'satoshi-regular';
+  src: url('/assets/font/Satoshi-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'satoshi-bold';
+  src: url('/assets/font/Satoshi-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'satoshi-medium';
+  src: url('/assets/font/Satoshi-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'threat';
+  src: url('/assets/font/Threat.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'sansation';
+  src: url('/assets/font/Sansation.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'deadjim';
+  src: url('/assets/font/DEADJIM.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'aero';
+  src: url('/assets/font/Aero.ttf') format('truetype');
+}
+
+.satoshi {
+  font-family: 'satoshi-regular';
+}
+
+.satoshi-bold {
+  font-family: 'satoshi-bold';
+}
+
+.satoshi-medium {
+  font-family: 'satoshi-medium';
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.roboto-condensed-bold {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.threat {
+  font-family: 'threat';
+}
+
+.sansation {
+  font-family: 'sansation';
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.deadjim {
+  font-family: 'deadjim';
+  @apply tracking-[0.15rem];
+}
+
+.aero {
+  font-family: 'aero';
+}

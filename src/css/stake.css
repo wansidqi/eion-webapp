@@ -1,0 +1,35 @@
+@tailwind utilities;
+
+.center {
+  @apply flex items-center justify-center;
+}
+
+.round {
+  @apply h-[80px] w-[80px] rounded-full lg:h-[120px] lg:w-[120px] xl:h-[130px] xl:w-[130px] 2xl:h-[150px] 2xl:w-[150px];
+}
+
+/* -20px */
+.imground {
+  @apply h-[65px] w-[65px] rounded-full lg:h-[100px] lg:w-[100px] xl:h-[110px] xl:w-[110px] 2xl:h-[130px] 2xl:w-[130px];
+}
+
+::-webkit-meter-bar {
+  background-color: #393d5d;
+  border: 0px;
+}
+
+::-webkit-meter-optimum-value {
+  background-color: #0185ff;
+}
+
+::-webkit-meter-bar {
+  border-radius: 0px;
+}
+
+.infuse-round {
+  @apply h-[40px] w-[40px] lg:h-[50px] lg:w-[50px];
+}
+
+.image {
+  display: none;
+}

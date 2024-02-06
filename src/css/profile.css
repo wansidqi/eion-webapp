@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.game-info {
+  /* background: linear-gradient(91.81deg, rgba(12, 86, 155, 0.8) 1.56%, rgba(28, 103, 173, 0) 98.72%); */
+  @apply bg-gradient-to-r from-[#010E1A] via-[#5097D9] to-[#010E1A] p-3 text-[14px];
+}
+
+.matchlist {
+  background: radial-gradient(100% 100% at 50.15% 0%, rgba(22, 143, 255, 0.4) 0%, rgba(0, 81, 155, 0.4) 100%);
+  border: 1px solid #5097d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+
+.fav-btn {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(80, 151, 217, 0.8) 0%, rgba(0, 81, 155, 0.8) 100%);
+  border: 0.5px solid #5097d9;
+  box-shadow: 0px 0px 3px #0185ff, inset 0px -4px 5px rgba(255, 255, 255, 0.25);
+}

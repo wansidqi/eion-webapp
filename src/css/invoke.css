@@ -1,0 +1,27 @@
+@tailwind utilities;
+
+.invoke-card-size {
+  background-image: url('/assets/images/Playmat/placeholder-card.png');
+  background-size: cover;
+  @apply h-[150px] w-[110px];
+}
+
+.placeholder-card {
+  background-image: url('/assets/images/Playmat/placeholder-card.png');
+  background-size: cover;
+  @apply h-[90px] w-[63px];
+}
+
+.kda {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  background: linear-gradient(92.73deg, #ffffff 7.81%, #8d8d8d 51.97%, #8d8d8d 91.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -1,0 +1,24 @@
+.signup-btn{
+    background: linear-gradient(180deg, #2754F3 0%, #1515AD 100%);
+    box-shadow: 0px 0px 2.53164px #000000;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.signup-btn:hover{
+    background: linear-gradient(180deg, #2754F3 0%, #1515AD 100%);
+    /* border: 3.5px solid #8C8C8C; */
+}
+
+
+.google-btn{
+    background: radial-gradient(43.95% 103.65% at 54.69% 101.16%, #757575 0%, #B1B1B1 100%) ;
+    box-shadow: 0px 0px 2.53164px #000000;
+}
+
+.bg-congrats{
+    background-image: url(../../public/assets/images/bg-congrats.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

@@ -1,0 +1,65 @@
+.desktop-bg {
+  background-image: url('/assets/images/background/desktop-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply min-h-screen border border-transparent;
+}
+
+.eion-bg {
+  background-image: url('/assets/images/eion-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply min-h-screen border border-transparent;
+}
+
+.authentication-bg {
+  background-image: url('/assets/images/background/authentication.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply min-h-screen border border-transparent;
+}
+
+.playmat-bg {
+  background-image: url('/assets/images/background/playmat.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply min-h-screen;
+}
+
+.gatcha-bg {
+  background-image: url('/assets/images/background/gatcha-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply min-h-screen;
+}
+
+.playmat-bg-small {
+  background-image: url('/assets/images/background/playmat.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* @apply min-h-screen; */
+}
+
+.invoke-bg {
+  background-image: url('/assets/images/background/invoke.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply min-h-screen border border-transparent;
+}
+
+.home-bg {
+  background-image: url('/assets/images/background/home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply min-h-screen border border-transparent;
+}
+
+.how-to-play-bg {
+  background-image: url('/assets/images/background/how-to-play-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.refbgcolor{
+  background: radial-gradient(9344.46% 101.62% at 0% 50%, #07111A 0%, rgba(7, 17, 26, 0.28) 100%);
+}

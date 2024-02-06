@@ -1,0 +1,601 @@
+{
+    "draft": {
+        "id": "f37b908e-8409-482f-896d-fadfa96f53ed",
+        "userId": "108e1496-90fe-4b79-9562-faa24bbbfc35",
+        "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+        "user": {
+            "username": "pure12"
+        },
+        "game": {
+            "id": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+            "name": "game1",
+            "match": {
+                "id": "04ea4530-7e0a-441c-889f-35b43e0fb227",
+                "status": "Upcoming",
+                "country": "MY",
+                "dateTime": "2023-07-03 14:59:09.362000",
+                "createdAt": "2023-08-14 17:56:27.322000",
+                "updatedAt": "2023-08-14 17:56:27.322000"
+            },
+            "matchId": "04ea4530-7e0a-441c-889f-35b43e0fb227",
+            "lockGame": 1,
+            "lockDraft": 0
+        },
+        "score": {
+            "id": 258,
+            "totalFP": 2678,
+            "totalLP": 1227,
+            "createdAt": "2023-08-17 23:38:32.214000",
+            "updatedAt": "2023-08-19 02:01:39.623000"
+        },
+        "teamWin": {
+            "id": "bae4e77f-f970-495b-9e66-f5cafc64007f",
+            "logo": "https://d3bmt85musy2ue.cloudfront.net/73f58f467ab68a026aa923e334771c1ad7d1e18dddda0db0980797158ef594f1",
+            "name": "HomeBois Malaysia",
+            "country": "MY",
+            "createdAt": "2023-08-02 04:28:01.246000",
+            "shortName": "HB MY",
+            "updatedAt": "2023-08-07 02:44:40.447000"
+        },
+        "teamLose": {
+            "id": "9a27034a-434a-4488-aa87-10307b93491b",
+            "logo": "https://d3bmt85musy2ue.cloudfront.net/df7e412b3705ade5ec25bcfd65e114347d94da538cc37da1eb270e49ae7d3d3c",
+            "name": "RSG Malaysia",
+            "country": "MY",
+            "createdAt": "2023-08-02 04:25:18.903000",
+            "shortName": "RSG MY",
+            "updatedAt": "2023-08-07 02:44:00.809000"
+        },
+        "leader": {
+            "id": "bf317cc8-a9d2-4454-a077-32f5eed65f17",
+            "card": {
+                "fp": 4,
+                "id": "e95d9268-b681-4277-b9e3-ca3a84699d51",
+                "type": "leader",
+                "result": null,
+                "country": null,
+                "details": {
+                    "id": "d0397d2b-b7a1-4cf6-bee3-65ec44380d91",
+                    "lane": null,
+                    "name": "The Wizard",
+                    "team": null,
+                    "image": "",
+                    "rarity": "silver",
+                    "description": "Play 2 or more Mid players. Earn 4 SP for each kill the team in the prediction field gets."
+                },
+                "trigger": "the_wizard",
+                "trigger_operator": "multiply",
+                "trigger_condition": "mid"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "player1": {
+            "id": "987ddd34-9acc-4b73-b0f0-6537f80e0af9",
+            "card": {
+                "fp": 0,
+                "id": "3c1053ee-d33e-44a9-b6ab-5f301b1ec00a",
+                "type": "player",
+                "result": {
+                    "value": "5#3#1",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "player_homebois_my_anip",
+                    "operator": "player",
+                    "condition": "player",
+                    "createdAt": "2023-08-17 03:00:48.049000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": "my",
+                "details": {
+                    "id": "d8288844-2200-48dd-b32e-e34b6d9afda1",
+                    "lane": "gold",
+                    "name": "HomeBois MY ANIP",
+                    "team": {
+                        "id": "bae4e77f-f970-495b-9e66-f5cafc64007f",
+                        "logo": "https://d3bmt85musy2ue.cloudfront.net/73f58f467ab68a026aa923e334771c1ad7d1e18dddda0db0980797158ef594f1",
+                        "name": "HomeBois Malaysia",
+                        "country": "MY",
+                        "createdAt": "2023-08-02 04:28:01.246000",
+                        "shortName": "HB MY",
+                        "updatedAt": "2023-08-07 02:44:40.447000"
+                    },
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/cbbc6fa7b25d5cab076e38ec7e0c03b00accd92ede3d9bab126e0d200886e7f8",
+                    "rarity": "basic",
+                    "description": "HomeBois MY ANIP Card"
+                },
+                "trigger": "player_homebois_my_anip",
+                "trigger_operator": "player",
+                "trigger_condition": "player"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "player2": {
+            "id": "688f7e73-33ac-4081-a5e4-bc114d75cf9a",
+            "card": {
+                "fp": 0,
+                "id": "35814538-a95a-4610-9aa9-01770a084705",
+                "type": "player",
+                "result": {
+                    "value": "31#12#5",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "player_homebois_my_warlord",
+                    "operator": "player",
+                    "condition": "player",
+                    "createdAt": "2023-08-17 03:00:48.049000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": "my",
+                "details": {
+                    "id": "8b765390-6410-4ad4-99e5-d1724a77b6fa",
+                    "lane": "mid",
+                    "name": "HomeBois MY WARLORD",
+                    "team": {
+                        "id": "bae4e77f-f970-495b-9e66-f5cafc64007f",
+                        "logo": "https://d3bmt85musy2ue.cloudfront.net/73f58f467ab68a026aa923e334771c1ad7d1e18dddda0db0980797158ef594f1",
+                        "name": "HomeBois Malaysia",
+                        "country": "MY",
+                        "createdAt": "2023-08-02 04:28:01.246000",
+                        "shortName": "HB MY",
+                        "updatedAt": "2023-08-07 02:44:40.447000"
+                    },
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/f86c540cc8bc57e3141e92a6ae8d38f477a6e59126f310c986d04ebf778c0b02",
+                    "rarity": "basic",
+                    "description": "HomeBois MY WARLORD Card"
+                },
+                "trigger": "player_homebois_my_warlord",
+                "trigger_operator": "player",
+                "trigger_condition": "player"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "player3": {
+            "id": "99eb1e07-39d8-487e-9604-3b601a23bbc5",
+            "card": {
+                "fp": 0,
+                "id": "35814538-a95a-4610-9aa9-01770a084705",
+                "type": "player",
+                "result": {
+                    "value": "31#12#5",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "player_homebois_my_warlord",
+                    "operator": "player",
+                    "condition": "player",
+                    "createdAt": "2023-08-17 03:00:48.049000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": "my",
+                "details": {
+                    "id": "8b765390-6410-4ad4-99e5-d1724a77b6fa",
+                    "lane": "mid",
+                    "name": "HomeBois MY WARLORD",
+                    "team": {
+                        "id": "bae4e77f-f970-495b-9e66-f5cafc64007f",
+                        "logo": "https://d3bmt85musy2ue.cloudfront.net/73f58f467ab68a026aa923e334771c1ad7d1e18dddda0db0980797158ef594f1",
+                        "name": "HomeBois Malaysia",
+                        "country": "MY",
+                        "createdAt": "2023-08-02 04:28:01.246000",
+                        "shortName": "HB MY",
+                        "updatedAt": "2023-08-07 02:44:40.447000"
+                    },
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/f86c540cc8bc57e3141e92a6ae8d38f477a6e59126f310c986d04ebf778c0b02",
+                    "rarity": "basic",
+                    "description": "HomeBois MY WARLORD Card"
+                },
+                "trigger": "player_homebois_my_warlord",
+                "trigger_operator": "player",
+                "trigger_condition": "player"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "player4": {
+            "id": "87308b25-e6cb-4d36-8c95-36321bf3c860",
+            "card": {
+                "fp": 0,
+                "id": "84a23fce-740a-4805-8919-fc2af219b2fb",
+                "type": "player",
+                "result": {
+                    "value": "11#2#65",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "player_homebois_my_chibii",
+                    "operator": "player",
+                    "condition": "player",
+                    "createdAt": "2023-08-17 03:00:48.049000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": "my",
+                "details": {
+                    "id": "947fd3a3-3494-4ae8-9d5e-81a3d9df7720",
+                    "lane": "jungle",
+                    "name": "HomeBois MY CHIBII",
+                    "team": {
+                        "id": "bae4e77f-f970-495b-9e66-f5cafc64007f",
+                        "logo": "https://d3bmt85musy2ue.cloudfront.net/73f58f467ab68a026aa923e334771c1ad7d1e18dddda0db0980797158ef594f1",
+                        "name": "HomeBois Malaysia",
+                        "country": "MY",
+                        "createdAt": "2023-08-02 04:28:01.246000",
+                        "shortName": "HB MY",
+                        "updatedAt": "2023-08-07 02:44:40.447000"
+                    },
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/3df88203e18a343482e5bd1d99d3eb9f4b1208f95b7ba507b2f68d05a87c1ab9",
+                    "rarity": "basic",
+                    "description": "HomeBois MY CHIBII Card"
+                },
+                "trigger": "player_homebois_my_chibii",
+                "trigger_operator": "player",
+                "trigger_condition": "player"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "player5": {
+            "id": "9ca4ed7d-c1a1-48e4-9cd2-c4b9c50d3048",
+            "card": {
+                "fp": 0,
+                "id": "9f07ff53-8153-48d8-bbc6-949c5140f5c2",
+                "type": "player",
+                "result": {
+                    "value": "12#6#7",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "player_rsg_my_izanami",
+                    "operator": "player",
+                    "condition": "player",
+                    "createdAt": "2023-08-17 03:00:48.049000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": "my",
+                "details": {
+                    "id": "fdfc25c4-9d0f-4697-a2a2-a9f170b9aacb",
+                    "lane": "mid",
+                    "name": "RSG MY Izanami",
+                    "team": {
+                        "id": "9a27034a-434a-4488-aa87-10307b93491b",
+                        "logo": "https://d3bmt85musy2ue.cloudfront.net/df7e412b3705ade5ec25bcfd65e114347d94da538cc37da1eb270e49ae7d3d3c",
+                        "name": "RSG Malaysia",
+                        "country": "MY",
+                        "createdAt": "2023-08-02 04:25:18.903000",
+                        "shortName": "RSG MY",
+                        "updatedAt": "2023-08-07 02:44:00.809000"
+                    },
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/f8baff6db20a0266e6ef353dd1164e46e36c6c3831b4481b32ad602cc2634441",
+                    "rarity": "basic",
+                    "description": "RSG MY Izanami Card"
+                },
+                "trigger": "player_rsg_my_izanami",
+                "trigger_operator": "player",
+                "trigger_condition": "player"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "skill1": {
+            "id": "5dc870b8-3cd0-4ec8-8097-867eb10f8d40",
+            "card": {
+                "fp": 30,
+                "id": "fcf9b739-2e74-43b1-aaee-dad5f3a52c88",
+                "type": "skill",
+                "result": {
+                    "value": "player_homebois_my_barbossa",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "obliterate",
+                    "operator": "equal",
+                    "condition": "player_trigger_name",
+                    "createdAt": "2023-08-17 03:02:53.029000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": null,
+                "details": {
+                    "id": "6f3e5809-c087-461e-8978-528d3fb01549",
+                    "lane": null,
+                    "name": "Obliterate",
+                    "team": null,
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/78214a3007518385848cd854cc6eca26d25e7002161cf4879099bb8bfa0ce6bf",
+                    "rarity": "silver",
+                    "description": "If the player gets the highest kills in the game earn 30 SP."
+                },
+                "trigger": "obliterate",
+                "trigger_operator": "equal",
+                "trigger_condition": "player_trigger_name"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "skill2": {
+            "id": "fcad29e7-ac9c-49db-907b-391d1c8a1ace",
+            "card": {
+                "fp": 60,
+                "id": "d5f1f4de-ad09-4964-957c-3b582e182c42",
+                "type": "skill",
+                "result": {
+                    "value": "player_rsg_my_izanami",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "secret_ritual",
+                    "operator": "equal_and_if_inverse",
+                    "condition": "player_trigger_name",
+                    "createdAt": "2023-08-17 03:02:53.029000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": null,
+                "details": {
+                    "id": "e2704767-a7e5-4743-9acd-de14f5c513e9",
+                    "lane": null,
+                    "name": "Secret Ritual",
+                    "team": null,
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/4ac3730126bdef46a2e7f5470d5a598e440e83dc331747482233daba24cd429e",
+                    "rarity": "basic",
+                    "description": "If the player gets the lowest GPM in the game, earn 60 SP.   Convert negative SP to positive for attached player."
+                },
+                "trigger": "secret_ritual",
+                "trigger_operator": "equal_and_if_inverse",
+                "trigger_condition": "player_trigger_name"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "skill3": {
+            "id": "d8d0d28e-f3ea-4b9b-9c53-1c7aed206c2e",
+            "card": {
+                "fp": 40,
+                "id": "c756eab4-91d3-46b9-93aa-67d10da5abe0",
+                "type": "skill",
+                "result": {
+                    "value": "player_rsg_my_rippo",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "primal_rage",
+                    "operator": "equal",
+                    "condition": "player_trigger_name",
+                    "createdAt": "2023-08-17 03:02:53.029000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": null,
+                "details": {
+                    "id": "f9acdf2e-10e6-4c8c-b1a2-5834ea660f74",
+                    "lane": null,
+                    "name": "Primal Rage",
+                    "team": null,
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/bc0ae103a27d1f19bb20571f5e74e1d3f82b668b504833581346b12542a70622",
+                    "rarity": "basic",
+                    "description": "If the player gets the highest damage taken in the game, earn 40 SP."
+                },
+                "trigger": "primal_rage",
+                "trigger_operator": "equal",
+                "trigger_condition": "player_trigger_name"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "skill4": {
+            "id": "6e61175b-d7fe-43ae-9ad1-5951bb8dda23",
+            "card": {
+                "fp": 60,
+                "id": "d20eacb0-8497-4ad0-bde1-367396a5f5ba",
+                "type": "skill",
+                "result": {
+                    "value": "player_homebois_my_anip",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "maleficence",
+                    "operator": "equal_and_if_inverse",
+                    "condition": "player_trigger_name",
+                    "createdAt": "2023-08-17 03:02:53.029000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": null,
+                "details": {
+                    "id": "0a0bdad2-be6b-4499-bcb6-ee7c5a0fe4d0",
+                    "lane": null,
+                    "name": "Maleficence",
+                    "team": null,
+                    "image": "",
+                    "rarity": "alternative_art",
+                    "description": "If the player gets the lowest kills in the game, earn 60 SP.  Convert negative SP to positive for attached player."
+                },
+                "trigger": "maleficence",
+                "trigger_operator": "equal_and_if_inverse",
+                "trigger_condition": "player_trigger_name"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "skill5": {
+            "id": "386b9fb7-6d03-4c10-adc6-4981cb6cf430",
+            "card": {
+                "fp": 20,
+                "id": "cdc64944-0513-4312-8375-d6039f11854a",
+                "type": "skill",
+                "result": {
+                    "value": "player_rsg_my_zaed",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "phalanx",
+                    "operator": "equal",
+                    "condition": "player_trigger_name",
+                    "createdAt": "2023-08-17 03:02:53.029000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": null,
+                "details": {
+                    "id": "6960518c-733e-483b-92e2-ba95fc33c7db",
+                    "lane": null,
+                    "name": "Phalanx",
+                    "team": null,
+                    "image": "https://d3bmt85musy2ue.cloudfront.net/2e7a09d3279680faf62d3caa83d0fc51560d5f674fa6a2d3a4953e9540c3186f",
+                    "rarity": "basic",
+                    "description": "If the player gets the lowest death in the game, earn 20 SP."
+                },
+                "trigger": "phalanx",
+                "trigger_operator": "equal",
+                "trigger_condition": "player_trigger_name"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "support1": {
+            "id": "98ebe1ae-e78a-4941-8b03-40b190465f20",
+            "card": {
+                "fp": 60,
+                "id": "f89443fb-89f2-4a90-9d84-ddb444b3caba",
+                "type": "support",
+                "result": {
+                    "value": "false",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "bloodrush",
+                    "operator": "equal",
+                    "condition": "boolean",
+                    "createdAt": "2023-08-17 03:00:48.049000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": null,
+                "details": {
+                    "id": "b1c94494-ea94-405c-80c1-b9e1cd5792c6",
+                    "lane": null,
+                    "name": "Bloodrush",
+                    "team": null,
+                    "image": "",
+                    "rarity": "alternative_art",
+                    "description": "If either team gets 10 kills in the first 10 mins, earn 60 SP."
+                },
+                "trigger": "bloodrush",
+                "trigger_operator": "equal",
+                "trigger_condition": "boolean"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "support2": {
+            "id": "e1398bd6-736d-4fa1-975f-ac5e6700e503",
+            "card": {
+                "fp": 30,
+                "id": "e9e67bd9-77bd-442b-a48b-98ea50d26d77",
+                "type": "support",
+                "result": null,
+                "country": null,
+                "details": {
+                    "id": "5fb970ff-c5eb-41dd-a826-714460ea2ed7",
+                    "lane": null,
+                    "name": "Fresh Blood",
+                    "team": null,
+                    "image": "",
+                    "rarity": "alternative_art",
+                    "description": "If the chosen team gets first blood in the game, earn 30 SP."
+                },
+                "trigger": "fresh_blood",
+                "trigger_operator": "equal",
+                "trigger_condition": "teamId"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        },
+        "support3": {
+            "id": "4e7b9162-d73d-4d3d-9c17-dc44089515c5",
+            "card": {
+                "fp": 3,
+                "id": "bad6305b-6af9-4acc-ba43-cc1a2a63c618",
+                "type": "support",
+                "result": {
+                    "value": "567",
+                    "gameId": "6d157629-8e64-4f16-836f-3c1b747c9a4c",
+                    "trigger": "subjugate",
+                    "operator": "multiply",
+                    "condition": "count",
+                    "createdAt": "2023-08-17 03:02:53.029000",
+                    "updatedAt": "2023-08-18 00:54:40.258000"
+                },
+                "country": null,
+                "details": {
+                    "id": "35da2cdc-32f4-4c2f-9427-8023cef49111",
+                    "lane": null,
+                    "name": "Subjugate",
+                    "team": null,
+                    "image": "",
+                    "rarity": "alternative_art",
+                    "description": "For every turtle and lord killed, earn 3 SP."
+                },
+                "trigger": "subjugate",
+                "trigger_operator": "multiply",
+                "trigger_condition": "count"
+            },
+            "deletedAt": null,
+            "currentExp": 0,
+            "premiumPoint": 0,
+            "refinementLevel": 0
+        }
+    },
+    "results": {
+        "teamLose": {
+            "name": "teamLose",
+            "winner": "9a27034a-434a-4488-aa87-10307b93491b",
+            "prediction": "bae4e77f-f970-495b-9e66-f5cafc64007f",
+            "fp": 0,
+            "lp": 200
+        },
+        "leader": {
+            "cardFp": 4,
+            "fp": 12,
+            "lp": 12,
+            "pp": 0
+        },
+        "player1": {
+            "cardFp": 0,
+            "fp": 25,
+            "lp": 25,
+            "pp": 0
+        },
+        "player2": {
+            "cardFp": 0,
+            "fp": 215,
+            "lp": 215,
+            "pp": 0
+        },
+        "player3": {
+            "cardFp": 0,
+            "fp": 215,
+            "lp": 215,
+            "pp": 0
+        },
+        "player4": {
+            "cardFp": 0,
+            "fp": 415,
+            "lp": 415,
+            "pp": 0
+        },
+        "player5": {
+            "cardFp": 0,
+            "fp": 95,
+            "lp": 95,
+            "pp": 0
+        },
+        "support3": {
+            "cardFp": 3,
+            "fp": 1701,
+            "lp": 50,
+            "pp": 0
+        }
+    }
+}

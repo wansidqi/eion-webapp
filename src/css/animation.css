@@ -1,0 +1,246 @@
+@tailwind utilities;
+
+@layer utilities {
+  .slide-left {
+    animation: slide-left 1.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes slide-left {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-right {
+    animation: slide-right 1.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes slide-right {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes disappear {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .appear {
+    animation-name: appear;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  .disappear {
+    animation-name: appear;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  .slide-top {
+    animation: slide-top 1.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes slide-top {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-bottom {
+    animation: slide-bottom 1.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes slide-bottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .entrance {
+    animation: entrance 0.75s ease 0s 1 normal forwards;
+  }
+  @keyframes entrance {
+    0% {
+      opacity: 0;
+      transform: rotateX(-100deg);
+      transform-origin: top;
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+      transform-origin: top;
+    }
+  }
+
+  .bouncing {
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-out {
+    animation: fadeInOut 1s infinite;
+    opacity: 0;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .loading-animation {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    animation: spin 1s linear infinite;
+  }
+
+  .loading-card {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .slide-to-right {
+    animation: slideRight 1s forwards;
+  }
+
+  @keyframes slideRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(10%);
+    }
+  }
+
+  @keyframes colorShift {
+    0% {
+      border-color: #168fff;
+    }
+    25% {
+      border-color: #073c6d;
+    }
+    50% {
+      border-color: #168fff;
+    }
+    75% {
+      border-color: #073c6d;
+    }
+    100% {
+      border-color: #168fff;
+    }
+  }
+
+  .color-anim {
+    border: 2px solid #168fff;
+    animation: colorShift 2s infinite;
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .animate-fadeOut {
+    animation: fadeOut 1s ease-out;
+  }
+
+  /* CSS (or Tailwind configuration) */
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  @keyframes scaleDown {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .animate-scale {
+    animation: scale 0.5s ease-in-out;
+  }
+
+  .animate-scale-down {
+    animation: scaleDown 0.5s ease-in-out;
+  }
+}

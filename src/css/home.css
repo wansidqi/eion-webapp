@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.gradient-cards {
+  /* @apply bg-gradient-to-r from-[#5097D9] to-[#010E1A] p-1 px-3; */
+  /* Group 2608565 */
+  background: radial-gradient(100% 9344.44% at 0% 50%, #07111a 0%, rgba(7, 17, 26, 0.28) 100%);
+  border-radius: 2px;
+  @apply p-2 px-3;
+}
+
+
